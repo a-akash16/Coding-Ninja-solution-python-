@@ -1,0 +1,13 @@
+n=int(input())
+add=0
+n3=2
+if n%2==0:
+    while n3<=n:
+        add=add+n3
+        n3=n3+2
+else:
+    n=n-1
+    while n3<=n:
+        add=add+n3
+        n3=n3+2
+print(add)
